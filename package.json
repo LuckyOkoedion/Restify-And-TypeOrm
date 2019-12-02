@@ -1,0 +1,23 @@
+{
+  "name": "restapi-with-typescript",
+  "version": "1.0.0",
+  "description": "This is my code along with Manuel Rauber",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucky Okoedion",
+  "license": "ISC",
+  "dependencies": {
+    "@types/restify": "^8.4.2",
+    "nodemon": "^2.0.1",
+    "pg": "^7.14.0",
+    "reflect-metadata": "^0.1.13",
+    "restify": "^8.4.0",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.2",
+    "typeorm": "^0.2.20",
+    "typescript": "^3.7.2"
+  }
+}
