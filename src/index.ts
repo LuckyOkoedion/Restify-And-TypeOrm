@@ -10,7 +10,7 @@ const connectionOptions = PostgressConnectionStringParser.parse(
 );
 
 DatabaseProvider.configure({
-  type: process.env.TYPEORM_DRIVER_TYPE,
+  type: process.env.TYPEORM_DRIVER_TYPE || "postgres",
   database: connectionOptions.database,
   username: connectionOptions.user,
   password: connectionOptions.password,
