@@ -3,7 +3,7 @@ import {Bill} from '../models/bill';
 import {Customer} from '../models/customer';
 
 export interface DatabaseConfiguration {
-    type: 'postgres' | 'mysql' | 'mssql';
+    type: any;
     host: string;
     port: number;
     username: string;
